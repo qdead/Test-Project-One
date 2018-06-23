@@ -31,6 +31,13 @@ namespace ConsoleApp1
             }
             Console.WriteLine("Test");
             Console.ReadKey();
+            //Prints "it works" while true.
+            bool whileSwitch = true;
+            while (whileSwitch)
+            {
+                Console.WriteLine("it works");
+                whileSwitch = false;
+            }
         }
     }
 }
